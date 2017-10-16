@@ -107,6 +107,7 @@ public class PoolActivity extends Activity {
             }
         });
 
+
         Bundle bundle=this.getIntent().getExtras();
         JSESSIONID=bundle.getString("sessionid");
 
